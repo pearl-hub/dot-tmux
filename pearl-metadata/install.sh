@@ -4,5 +4,5 @@ post_install() {
 }
 
 pre_remove() {
-    unlink tmux "source $PEARL_PKGDIR/tmux.conf"
+    unlink tmux "$PEARL_PKGDIR/tmux.conf"
 }
