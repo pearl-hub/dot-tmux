@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+message="${@:-TASK COMPLETED!}"
+
+tmux display-message "#{session_name}/#{window_index}: ${message[@]}"
+echo "${message[@]}"
