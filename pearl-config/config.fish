@@ -1,5 +1,3 @@
-set -x DOT_TMUX_PKGDIR $PEARL_PKGDIR
-
 if [ -n "$TMUX" ]
     # set TERM according to the parent terminal's TERM (see etc/tmux.conf)
     switch $TERM
